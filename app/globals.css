@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #0070f3;
+  --primary-color: black;
 }
 
 html,
@@ -30,7 +30,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #0058b7;
+  background-color: #333;
   color: #fff;
 }
 
@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0047ab;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 1rem;
   border-bottom: 5px solid #fff;
@@ -104,7 +104,7 @@ body {
 }
 
 .search-button:hover {
-  background-color: #0058b7;
+  background-color: #868686;
 }
 
 .search-input:focus,
